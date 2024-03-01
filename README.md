@@ -1,4 +1,4 @@
-# King County Real Estate Analysis
+# Pop Genre Classification
 
 **Author**: Andre Layton  
 GitHub: @therookiescientist-andre
@@ -9,7 +9,8 @@ GitHub: @therookiescientist-andre
   
 ## Business Problem
 
-  Spotify executives are looking to improve their recommendation algorithms in order to gain more subscribers. The focus will be on pop songs, specifically, and this will require an algorithm to correctly identify tracks that are & are not pop. We'll be using Spotify data from the last 24 years (excluding 2024) in order to build a model that will accomplish this task. ***
+  Spotify executives are looking to improve their recommendation algorithms in order to gain more subscribers. The focus will be on pop songs, specifically, and this will require an algorithm to correctly identify tracks that are & are not pop. We'll be using Spotify data from the last 24 years (excluding 2024) in order to build a model that will accomplish this task. 
+***
 
 ## Data & Methods
 
@@ -26,7 +27,7 @@ The heatmap shows that the size of the living space (in square feet) is the feat
 
   The first few plots explore a simple linear regression model between the size of the living space (in sq. ft.) and the sales price of the home. After dropping the outliers using the interquartile range (IQR) method, we plot the data along with a best-fit line to observe the effect our predictor has on the target. 
   
-  ![Sq. Ft. of living space vs. sales price](images/living_space_regression.png)
+  ![Sq. Ft. of living space vs. sales price](images/svm_confusion_matrix.png)
   
   The visual above shows that there is a strong linear relationship between the size of the living space and the sales price of the home. The model's adjusted R-squared statistic is .318 - in other words, the size of the living space explains about 32% of the variance in the sales price. The residuals are also plotted, as shown below, and exhibit a semblance of a normal distribution, which confirms that no assumptions were violated. 
 
